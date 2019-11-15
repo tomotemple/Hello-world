@@ -1,0 +1,11 @@
+print("This program will calculate your current grade based off of the amount of assignments you have finished"
+      "and how many total days you have been in this class."
+      "It is not possible to receive more then 100%.")
+
+x = eval(input("Total number of completed units: "))
+y = eval(input("Number of other lessons completed: "))
+z = eval(input("Total number of class days since you have begun this course(This includes Friday Hybrids): "))
+a = x * 5
+b = a + y
+c = (b / z) * 100
+print("Your current score is ", c, "%.")
